@@ -68,6 +68,8 @@ def highest_year(name, gender):
 def main():
     # print(process_file('babynames\yob1880.txt'))
     print(proportion('Sarah', 'F', 1981))
+    print(highest_year('Sarah', 'F'))
+    print(highest_year('Matthew', 'M'))
     # print(highest_year('Sarah', 'F'))
 
 
